@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h1>AI Agent</h1>
+            <p>Web Chat Assistant</p>
+
+            <button id="newChatBtn">
+                New Conversation
+            </button>
+
+            <div class="status">
+                <span></span>
+                AI Agent Online
+            </div>
+        </aside>
+
+
+        <main class="chat">
+
+            <header class="chat-header">
+                <div>
+                    <h2>AI Assistant</h2>
+                    <p>Ask me anything</p>
+                </div>
+            </header>
+
+
+            <section id="chatMessages" class="messages">
+
+                <div class="message assistant">
+                    <div class="message-name">AI Assistant</div>
+                    <div class="message-text">
+                        Hello! I'm your AI assistant. How can I help you today?
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div id="typing" class="typing hidden">
+                AI is thinking...
+            </div>
+
+
+            <form id="chatForm" class="input-area">
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Type your message..."
+                    rows="1"
+                ></textarea>
+
+                <button type="submit" id="sendBtn">
+                    Send
+                </button>
+
+            </form>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
