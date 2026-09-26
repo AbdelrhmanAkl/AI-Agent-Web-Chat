@@ -125,7 +125,7 @@ Each conversation can have its own conversation ID.
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/AbdelrhmanAkl/AI-Agent-Web-Chat.git
 cd AI-Agent-Web-Chat
 ```
 
